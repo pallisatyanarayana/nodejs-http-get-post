@@ -12,12 +12,18 @@ var app=http.createServer(function(req,res)
        }
        data.table.push(obj)
     }
-    fs.writeFile ("input.json", JSON.stringify(data), function(err,data) {
-        if (err) throw err;
-        console.log('complete');
+    fs.writeFile ("index.json", JSON.stringify(data), function(err,data) {
+        if (err)
+        {
+            console.log("error occured");
+        }
+        else{
+            console.log('complete');
 
-        res.write(data);
-        res.end();
+            res.write(data);
+            res.end();
+        }
+        
         }
     );
 });

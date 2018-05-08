@@ -35,8 +35,8 @@ var app=http.createServer(function(req,res)
             console.log("Error occured..");
         }
         else{
-            res.writeHead(200,{"Content-type":"text/html"});
-            res.write("</br>");
+             res.writeHead(200,{"Content-type":"text/html"});
+             res.write("</br>");
             res.write(data);
             res.end();
             }

@@ -1,0 +1,27 @@
+While developing software applications, programmers use relational database management system (RDBMS) to create, read, update and delete back-end data. They even manipulate the RDBMS through custom structured query language (SQL) statements. The developers have option to choose from several RDBMS according to specific requirements of each project.
+
+But the choice of database differs from one programmer to another. Many enterprises prefer open source database systems to commercial database systems to save money. But many large enterprises opt for commercial RDBMS to avail a number of advanced features along with latest security mechanism and encryption technology.
+
+Both MySQL and MS SQL Server are widely used enterprise database systems. MySQL is an open source RDBMS, whereas SQL Server is a Microsoft product. Microsoft allows enterprises to choose from several editions of SQL Server according to their needs and budget. But the smart programmers always keep in mind the major differences between MySQL and MS SQL Server to pick the right RDBMS for their project.
+
+Understanding Major Differences between MySQL and MS SQL Server
+
+Supported Platforms
+
+SQL Server was originally developed by Microsoft for Windows operating system exclusively. Microsoft recently announced its decision to make the RDBMS available on both Linux, and Mac OS X (via Docker). Hence, the enterprises now have option to run the database system on three distinct platforms. But they will lack the option to avail certain features while running SQL Server on Linux or Mac OS X. The enterprises can run MySQL smoothly on several popular operating systems including Windows, Linux and Mac OS X.
+
+Supported Programming Languages
+
+Both MySQL and SQL Server support multiple programming languages. Both RDBMS support Java, PHP, C++, Python, Ruby, Visual Basic, Delphi, Go and R. But MySQL additionally supports programming languages like Perl, Scheme, Tcl, Haskel and Eiffel. The support for many programming languages makes MySQL popular among varying developer communities.
+
+Storage Engine
+
+MySQL supports a number of storage engines. While using MySQL, the programmers even have option to use a plug-in storage engine. But the earlier versions of the RDBMS supported only non-transactional storage engine. Hence, the programmers working with older versions of the database system need to upgrade the storage engine. At the same time, the developers have to use a single storage engine while working with SQL Server. But they have to switch to the most recent versions of the RDBMS to avail improved storage engine. The multiple storage engine support makes MySQL more flexible than MS SQL Server.
+
+Filtering
+
+MySQL allow users to filter out tables, rows, and users in a number of ways. But it requires users to filter out the tables, rows, or users by individual databases. While filtering the data, the developers have to filter database tables individually by running multiple queries. On the other hand, SQL Server enables developers to take advantage of row-based filtering. The row-based filtering option filters data on a database by database way. Also, the filtered data is stored in a separate distribution database. Hence, it becomes easier for programmers to filter multiple rows without considering the number of databases.
+
+Backup
+
+While using MySQL, developers have to backup data by extracting all data as SQL statements. The tool provided by the RDBMS further blocks the database while backing up data. The feature reduces chances of data corruption while switching from one version or edition of MySQL to another. But the feature makes the data restoration process time-consuming due to execution of multiple SQL statements. Unlike MySQL, SQL Server does not block the database while backing up data. The feature enables users to backup and 
